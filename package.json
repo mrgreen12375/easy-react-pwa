@@ -8,13 +8,17 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
-    "react-pwa-install": "^1.0.12"
+    "react-pwa-install": "^1.0.12",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "install": "npm install --force",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
