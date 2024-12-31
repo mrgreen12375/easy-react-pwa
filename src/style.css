@@ -50,3 +50,7 @@ header {
 .menu button:hover {
     background-color: #6fcd74;
 }
+
+img {
+    height: 100px;
+}
